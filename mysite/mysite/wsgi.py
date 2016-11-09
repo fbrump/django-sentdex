@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# mysite/mysite/wsgi.py
+
 """
 WSGI config for mysite project.
 

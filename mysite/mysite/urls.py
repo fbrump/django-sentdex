@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# mysite/mysite/urls.py
+
 """mysite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -18,4 +21,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^webapp/', include('webapp.urls')),
 ]

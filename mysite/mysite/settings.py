@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# mysite/mysite/settings.py
+
 """
 Django settings for mysite project.
 
@@ -37,6 +40,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'webapp',
 )
 
 MIDDLEWARE_CLASSES = (
