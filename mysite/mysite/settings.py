@@ -43,6 +43,7 @@ INSTALLED_APPS = (
 
     #'webapp',
     'personal',
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
