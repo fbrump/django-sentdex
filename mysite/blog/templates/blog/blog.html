@@ -1,0 +1,12 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+	{% if object_list %}
+		{% for blog in object_list %}
+			<h5>{{ post.date|date:"Y-m-d" }} <a href="/blog/{{ post.id }}">{{ post.title }}</a></h5>
+		{% endfor %}
+	{% else %}
+		<em>Not exist any post published <strong>:(</strong></em>	
+	{% endif %}
+	
+{% endblock content %}
