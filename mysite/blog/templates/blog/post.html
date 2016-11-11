@@ -1,0 +1,16 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+	<article>
+		<header>
+			<h3>{{ post.title }}</h3>
+			<h6>{{ post.date }}</h6>
+		</header>
+		<section>
+			{{ post.body|safe|linebreaks }}
+		</section>
+		<footer>
+			
+		</footer>
+	</article>
+{% endblock content %}
